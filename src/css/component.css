@@ -1,0 +1,198 @@
+
+/* card */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    }
+    
+    .div1 {grid-area: 3 / 1 / 4 / 5; }
+    .div2 { grid-area: 2 / 3 / 5 / 4; 
+    padding-right: 10px;}
+    .div3 { grid-area: 3 / 2 / 4 / 4; 
+        color: var(--white, #FFF);
+        text-align: center;
+        text-shadow: 3px 2px 7px rgba(0, 0, 0, 0.50);
+        /* satoshi-30px-bold */
+        font-family: Satoshi;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 10px;
+    }
+    .div4 { grid-area: 5 / 2 / 7 / 4;
+        color: var(--white, #FFF);
+        text-align: center;
+        /* helvetica-18px */
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .div5 { grid-area: 7 / 3 / 8 / 4; 
+        padding-left: 10px;
+    }
+
+.soseriousimg {
+    width: 47vh;
+   
+}
+.citation-img {
+    width: 37vh;
+}
+
+
+.btn-1{
+    width: 275px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: var(--white, #FFF);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: var(--gray-8141414, #0D0D0D);
+    text-align: center;
+    text-overflow: ellipsis;
+
+    /* satoshi-20px-bold */
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-line {
+    width: 307px;
+    color: #FFF;
+}
+
+
+/* carousel */
+
+.carrousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.overlay::after {
+    content: "X";
+    color: #fff;
+    background-color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.overlay>figure {
+    margin: 0;
+    padding: 1rem;
+}
+
+.overlay>figure>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.miniatures {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    justify-content: center;
+    gap: 10px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.miniatures img {
+    cursor: pointer;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 25%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+   
+    
+}
+.carrousel_ecran {
+    width: 100%;
+    scroll-snap-align: start;
+    flex: none;
+    
+}
+
+.carrousel_ecran figure {
+    margin: 0;
+    scroll-snap-align: start; 
+}
+
+.carrousel_ecran figure figcaption {
+   display: none;
+}
+.carrousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+ 
+
+@media (max-width: 1000px) {
+
+    .carrousel_parent-ecrans {
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        
+        
+    }
+}
+
+
+::-webkit-scrollbar {
+    overflow: hidden;
+}
