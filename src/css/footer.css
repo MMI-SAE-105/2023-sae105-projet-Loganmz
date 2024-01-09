@@ -1,0 +1,112 @@
+.footer-logo {
+    width: 100vw;
+    padding: var(--space4x);
+    padding-bottom: 0;
+}
+
+.footer-text {
+    color: var(--grey);
+    /* helvetica-14px */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space3x);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space6x);
+    row-gap: var(--space1x);
+
+}
+
+
+.list-titre {
+    color: var(--white);
+    /* satoshi-18px */
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-list-left{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space2x);
+    padding-bottom: 30%;
+}
+
+.footer-list-right{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space2x);
+}
+.list-link a{
+    color: var(--grey);
+    /* helvetica-14px */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-line {
+    width: 40%;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-bottom_text {
+    color: var(--grey);
+    /* helvetica-14px */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space4x);
+    padding-top: 0;
+}
+
+
+.footer-bottom_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: var(--space3x);
+    align-items: center;
+    list-style: none;
+}
+
+
+.bottom-list_link a{
+    color: var(--grey);
+    /* helvetica-14px */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: underline;
+}

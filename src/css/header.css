@@ -102,6 +102,7 @@
     .menu{
         margin-top: 0px;
         margin-left: -10rem;
+        gap: var(--space6x);
     }
 
     .nav-toogle{
