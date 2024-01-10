@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Satoshi-Regular";
-  src: url('../font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf') format('opentype');
+  src: url('../font/Satoshi-Regular.woff2') format("woff2");
        font-weight: 400;
        font-display: swap;
        font-style: normal;
@@ -27,4 +27,3 @@
 
  
 
- @import url('https://www.fontshare.com/fonts/satoshi');
