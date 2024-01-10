@@ -1,5 +1,4 @@
 
-/* card */
 
 .carrousel-grid {
     display: grid;
@@ -65,6 +64,9 @@
 
 }
 
+
+
+/* card */
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -113,6 +115,7 @@
         align-items: center;
         justify-content: center;
         padding: var(--space3x);
+        padding-top: 0;
     }
     .div5 { grid-area: 5 / 2 / 5 / 4;
         display: flex;

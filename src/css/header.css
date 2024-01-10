@@ -29,15 +29,15 @@
         padding-right: 30px;
         color: rgb(255, 255, 255);
     }
-    .menu-test2 {
+    .menu-grid-line {
         display: flex;
         flex-direction: row;
         
     }
-    .menu-test2 li {
+    .menu-grid-line li {
         list-style: none;
     }
-    .menu-test2 li a {
+    .menu-grid-line li a p{
         font-size: 2rem;
         font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 500;
