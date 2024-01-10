@@ -5,8 +5,8 @@
 @import "footer.css";
 
 @font-face {
-  font-family: 'Satoshi-Regular';
-  src: url('../font/Satoshi-Regular.woff2') format('woff2');
+  font-family: "Satoshi-Regular";
+  src: url('../font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf') format('opentype');
        font-weight: 400;
        font-display: swap;
        font-style: normal;
@@ -26,3 +26,5 @@
  }
 
  
+
+ @import ""
