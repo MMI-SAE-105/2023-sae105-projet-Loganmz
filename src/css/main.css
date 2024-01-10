@@ -117,7 +117,33 @@ a{
     object-fit: cover;
 }
 .hero-replique {
+    background-image: url('/assets/img/background-img-header4.webp');
+    background-size: cover ; /* Set the size of the background image */
+    background-position: top; /* Position the image at the top of the page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    position: absolute; /* Needed for z-index to work */
+    z-index: -1; /* Place the image behind everything else */
+    top: 0; /* Position at the top of the page */
+    left: 0; /* Position at the left of the page */
+    width: 100%; /* Take the full width of the viewport */
+    height: 100%; /* Take the full height of the viewport */
+    object-fit: cover;
+}
+.hero-director {
     background-image: url('/assets/img/background-img-header1.webp');
+    background-size: cover ; /* Set the size of the background image */
+    background-position: top; /* Position the image at the top of the page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    position: absolute; /* Needed for z-index to work */
+    z-index: -1; /* Place the image behind everything else */
+    top: 0; /* Position at the top of the page */
+    left: 0; /* Position at the left of the page */
+    width: 100%; /* Take the full width of the viewport */
+    height: 100%; /* Take the full height of the viewport */
+    object-fit: cover;
+}
+.hero-music {
+    background-image: url('/assets/img/background-img-header3.webp');
     background-size: cover ; /* Set the size of the background image */
     background-position: top; /* Position the image at the top of the page */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -313,6 +339,13 @@ line-height: normal;
     line-height: normal;
     color: var(--black);
   }
+
+.color-invert {
+    background-color: var(--black);
+    color: var(--white);
+    padding-top: var(--space4x);
+    margin-bottom: var(--space4x);
+}
 .article-text {
     padding: var(--space3x);
     margin: 0;
@@ -320,6 +353,7 @@ line-height: normal;
 .article-titre {
     padding-left: var(--space3x);
     margin-top: 0;
+    padding-right: var(--space3x);
 }
 
 .article-section {
