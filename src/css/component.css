@@ -319,3 +319,36 @@
     margin-top: var(--space5x) ;
 }
 
+.carousel2 {
+    display: flex;
+    gap: var(--space2x);
+    overflow-x: scroll;
+    padding-left: var(--space2x);
+    scroll-snap-type: x mandatory;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: satoshi;
+    font-weight: 900;
+    font-size: 24px;
+
+
+  }
+  
+  .carousel__item {
+    flex: 1 0 260px;
+    scroll-snap-align: center;
+  }
+  
+  .carousel__item img {
+    display: block;
+    width: 80%;
+  }
+
+.ligne-carousel{
+    display: block;
+    width: 80vw;
+    height: 1px;
+    background-color:#000;
+    margin-bottom: var(--space2x);
+    margin-left: var(--space3x);
+}
