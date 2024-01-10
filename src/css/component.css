@@ -129,6 +129,8 @@
 }
 .citation-img {
     width: 100%;
+
+    object-fit: contain;
 }
 
 
@@ -280,3 +282,40 @@
 ::-webkit-scrollbar {
     overflow: hidden;
 }
+
+
+
+
+.formulaire .input{
+    background-color: transparent;
+    border: var(--white) solid 1px;
+    color: var(--white);
+    margin: var(--space2x) ;
+    
+}
+
+
+.formulaire textarea{
+    height: 10vh;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space3x);
+    color: var(--white);
+    font-family: helvetica;
+
+}
+
+.formulaire .send {
+    background-color: var(--white) ;
+    color: var(--black);
+    font-family: Satoshi;
+    font-weight: 700;
+    padding: var(--space2x) var(--space4x);
+    border-radius: var(--space4x);
+    border: none;
+    margin-top: var(--space5x) ;
+}
+
