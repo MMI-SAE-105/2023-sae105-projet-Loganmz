@@ -5,7 +5,7 @@
 @import "footer.css";
 
 @font-face {
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi";
   src: url("../font/Satoshi-Regular.woff") format("woff");
        font-weight: 400;
        font-display: swap;
