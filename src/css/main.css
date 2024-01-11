@@ -243,12 +243,15 @@ a{
 
 .hero-img {
     width: 100%;
-    height: 60%;
+    height: 50%;
     object-fit: cover;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: -1;
-    top: 40%;
-    padding: var(--space1x);
+    margin-top : 120%;
+   
 }
 .hero-text {
     display: flex;
