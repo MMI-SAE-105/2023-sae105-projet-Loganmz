@@ -2,7 +2,7 @@
 - NOM : Martinez
 - PRÉNOM : Logan
 - URL du site : https://soserious.logan-martinez.fr/
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/file/Ub5pEja6VbtYB80kQ6NogM/Projet-s1?type=design&node-id=642%3A1405&mode=design&t=FnmViTTp1vBYX9kI-1
 
 # Structure de départ pour le projet individuel.
 
